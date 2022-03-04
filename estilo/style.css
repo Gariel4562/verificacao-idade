@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+
+/* Zerar os espaços para ir moldando do meu jeito */
+* {
+    margin:0px;
+    padding:0px;
+
+}
+
+/* "variaveis" com fontes que usarei */
+:root {
+    --font-destaque: 'BhuTuka Expanded One', cursive;
+    --font-padrão: arial, verdana,helvetica sans-serif;
+
+
+
+
+}
+
+/* configuração Titulo Principal */
+h1 {
+    font-family: var(--font-destaque);
+    text-align: center;
+    background-image: linear-gradient(to right, transparent, lightgray, transparent);
+    font-size: 3em;
+}
+
