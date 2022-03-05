@@ -25,3 +25,42 @@ h1 {
     font-size: 3em;
 }
 
+header p {
+    margin:10px;
+    text-align: center;
+    font-family: var(--font-padrão);
+}
+
+section div p {
+    text-align: center;
+    line-height: 30px;
+    margin-bottom:10px;
+    
+}
+
+div {
+    background-color: lightgray;
+    padding:10px;
+    text-align: center;
+    max-width:1400px;
+}
+
+footer {
+    background-image:linear-gradient(to right, transparent, lightgray, transparent);
+    text-align: center;
+    font-family: var(--font-padrão);
+    margin-top: 364px;
+    padding:5px;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+    color:black;
+    font-weight:bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    
+}
