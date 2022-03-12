@@ -17,6 +17,10 @@
 
 }
 
+body {
+ background-color: rgb(128, 128, 128);
+}
+
 /* configuração Titulo Principal */
 h1 {
     font-family: var(--font-destaque);

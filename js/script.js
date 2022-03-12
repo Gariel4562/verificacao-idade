@@ -25,9 +25,13 @@ function verificar () {
             } else if (idade < 50) {
                 // adulto
                 img.setAttribute('src', 'imagens/Homem.png')
-            } else {
+            } else if (idade < 130) {
                 // idoso
                 img.setAttribute('src', 'imagens/HomemV.png')
+            } 
+            else {
+                // morto
+                img.setAttribute('src', 'imagens/meme.png.png')
             }
 
 
